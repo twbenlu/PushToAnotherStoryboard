@@ -16,6 +16,11 @@
 		711F10F017DB8985008F29AA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 711F10EF17DB8985008F29AA /* Default.png */; };
 		711F10F217DB8985008F29AA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 711F10F117DB8985008F29AA /* Default@2x.png */; };
 		711F10F417DB8985008F29AA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 711F10F317DB8985008F29AA /* Default-568h@2x.png */; };
+		711F10FB17DB89F2008F29AA /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711F10FA17DB89F2008F29AA /* Storyboard.storyboard */; };
+		711F10FE17DB8A7F008F29AA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 711F10FD17DB8A7F008F29AA /* MainViewController.m */; };
+		711F110017DB8F5E008F29AA /* Storyboard2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711F10FF17DB8F5E008F29AA /* Storyboard2.storyboard */; };
+		711F110317DB8F87008F29AA /* test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 711F110217DB8F87008F29AA /* test2.m */; };
+		711F110617DB90F8008F29AA /* test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 711F110517DB90F8008F29AA /* test1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,14 @@
 		711F10EF17DB8985008F29AA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		711F10F117DB8985008F29AA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		711F10F317DB8985008F29AA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		711F10FA17DB89F2008F29AA /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		711F10FC17DB8A7F008F29AA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		711F10FD17DB8A7F008F29AA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		711F10FF17DB8F5E008F29AA /* Storyboard2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard2.storyboard; sourceTree = "<group>"; };
+		711F110117DB8F87008F29AA /* test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test2.h; sourceTree = "<group>"; };
+		711F110217DB8F87008F29AA /* test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test2.m; sourceTree = "<group>"; };
+		711F110417DB90F8008F29AA /* test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test1.h; sourceTree = "<group>"; };
+		711F110517DB90F8008F29AA /* test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +64,14 @@
 		711F10D117DB8984008F29AA = {
 			isa = PBXGroup;
 			children = (
+				711F10FF17DB8F5E008F29AA /* Storyboard2.storyboard */,
+				711F110117DB8F87008F29AA /* test2.h */,
+				711F110217DB8F87008F29AA /* test2.m */,
+				711F10FA17DB89F2008F29AA /* Storyboard.storyboard */,
+				711F10FC17DB8A7F008F29AA /* MainViewController.h */,
+				711F10FD17DB8A7F008F29AA /* MainViewController.m */,
+				711F110417DB90F8008F29AA /* test1.h */,
+				711F110517DB90F8008F29AA /* test1.m */,
 				711F10E317DB8984008F29AA /* 2storyboard */,
 				711F10DC17DB8984008F29AA /* Frameworks */,
 				711F10DB17DB8984008F29AA /* Products */,
@@ -154,6 +175,8 @@
 				711F10F017DB8985008F29AA /* Default.png in Resources */,
 				711F10F217DB8985008F29AA /* Default@2x.png in Resources */,
 				711F10F417DB8985008F29AA /* Default-568h@2x.png in Resources */,
+				711F10FB17DB89F2008F29AA /* Storyboard.storyboard in Resources */,
+				711F110017DB8F5E008F29AA /* Storyboard2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +189,9 @@
 			files = (
 				711F10EA17DB8984008F29AA /* main.m in Sources */,
 				711F10EE17DB8985008F29AA /* AppDelegate.m in Sources */,
+				711F10FE17DB8A7F008F29AA /* MainViewController.m in Sources */,
+				711F110317DB8F87008F29AA /* test2.m in Sources */,
+				711F110617DB90F8008F29AA /* test1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +269,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "2storyboard/2storyboard-Prefix.pch";
 				INFOPLIST_FILE = "2storyboard/2storyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -254,6 +281,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "2storyboard/2storyboard-Prefix.pch";
 				INFOPLIST_FILE = "2storyboard/2storyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -278,6 +306,7 @@
 				711F10F917DB8985008F29AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

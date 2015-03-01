@@ -16,12 +16,19 @@
     [super dealloc];
 }
 
+//dataset connecttosqlserver(String aaa,dbpath bbb);
+//-(dataset)connection:(String *)aaa tosqlserver(dbpath *)bbb
+
+
+//bool applicationdidFinishLaunchingWithOptions(UIApplication application,NSDictionary launchOptions){}
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    //self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    //self.window.backgroundColor = [UIColor whiteColor];
+    //[self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="fmV-5A-vBJ">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Test2-->
+        <scene sceneID="QjT-eM-Jsg">
+            <objects>
+                <viewController storyboardIdentifier="test2" id="9nt-D9-XS4" customClass="test2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CcH-be-zV9"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q2m-GH-pFW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cwS-1q-aer">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Storyboard2 test" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXp-J0-AGO">
+                                <rect key="frame" x="32" y="35" width="268" height="135"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="135" id="0Av-5Q-prM"/>
+                                    <constraint firstAttribute="width" constant="268" id="YmR-9x-5S4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YXp-J0-AGO" firstAttribute="top" secondItem="cwS-1q-aer" secondAttribute="top" constant="35" id="3bo-IJ-LJs"/>
+                            <constraint firstAttribute="trailing" secondItem="YXp-J0-AGO" secondAttribute="trailing" constant="20" symbolic="YES" id="rbZ-eK-0V6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="MhR-pD-DYf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VFu-0U-rdf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="173" y="2"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bfM-BU-kup">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="fmV-5A-vBJ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rT8-dt-TaA">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9nt-D9-XS4" kind="relationship" relationship="rootViewController" id="GqI-rq-pAi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xHx-Ng-5yt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-343" y="2"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
